@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "create": "webpack"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
