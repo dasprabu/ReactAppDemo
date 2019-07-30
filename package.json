@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "create": "webpack"
   },
   "keywords": [],
   "author": "",
