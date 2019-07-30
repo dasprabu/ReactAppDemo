@@ -1,0 +1,12 @@
+body{
+   background-color: white;
+}
+.backgroundImg {
+    max-width: 100%;
+    height: auto;
+    }
+
+.jumbotron{
+
+    background-color: blueviolet;
+}
