@@ -1,1 +1,1 @@
-web: webpack-dev-server --open
+web: web : node index.js
