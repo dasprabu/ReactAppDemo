@@ -10,7 +10,8 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "node server.js", // serves the application
+    "heroku-postbuild": "webpack -p" // runs after installation
   },
   "keywords": [],
   "author": "",
