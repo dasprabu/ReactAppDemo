@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -p",
+    "create": "webpack -p"
   },
   "keywords": [],
   "author": "",
