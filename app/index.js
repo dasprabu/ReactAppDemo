@@ -15,10 +15,30 @@ class App extends React.Component{
 
 
         return(
-<div className="row">
-    <div className="col-sm-12 bg-danger text-center">
-        <h1>My First Bootstrap Pageee</h1>
-        <p>Resize this responsive page to see the effect!</p>
+<div>
+    <div className="row">
+        <div className="col-sm-12 text-center headerTitle">
+            <h3></h3>
+            <p></p>
+        </div>
+
+    </div>
+    <div className="row boxstyle">
+        <div className="col-sm-4"></div>
+        <div className="col-sm-4 transbox">
+            <div>
+                <label>Login</label>
+                <br />
+                <input type="text"></input>
+                <br />
+                <label>Password</label>
+                <br />
+                <input type="text"></input>
+                <br />
+                <button>Login</button>
+            </div>
+        </div>
+        <div className="col-sm-4"></div>
     </div>
 </div>
         )
