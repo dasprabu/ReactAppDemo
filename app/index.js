@@ -4,6 +4,7 @@ import './index.css';
 import Bootstrap from 'bootstrap'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Background  from './Images/watch.jpeg';
+import DFS  from './Images/DFS.svg';
 
 
 
@@ -26,17 +27,20 @@ class App extends React.Component{
     <div className="boxstyle">
         
         <div className="transbox">
-            
+            <div className="logo">
+                <img className="dfslogo" src={DFS} alt="Logo"></img>
+            </div>
                 <label>Login</label>
                 <br />
-                <input type="text"></input>
+                <input type="text" className="textbox"></input>
                 <br />
                 <label>Password</label>
                 <br />
-                <input type="text"></input>
+                <input type="text" className="textbox"></input>
                 <br />
+               <br/>
                 <button>Login</button>
-            
+                <br/>
         </div>
         
     </div>

@@ -21,9 +21,10 @@ body, html {
 }
 
 div.transbox {
-    
+    max-width: 400px;
+    background-position: center;
     background-color: #ffffff;
-    
+    margin:0 auto;
     opacity: 0.8;
     filter: alpha(opacity=60); /* For IE8 and earlier */
   }
@@ -31,5 +32,27 @@ div.transbox {
   div.boxstyle
   {
     margin: 20%;
+   
+  }
+
+  button{
+    background-color:rgb(132, 0, 0);
+    color: white;
+  }
+
+  div.logo{
+      margin: 0 auto;
+  }
+
+  img.dfslogo
+  {
+    max-width: 50px;
+    max-height: 100px;
+    display:block;
+    margin:auto;
+  }
+
+  .textbox{
+      width:80%;
   }
   
