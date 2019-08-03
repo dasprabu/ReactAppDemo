@@ -10,7 +10,7 @@ body{
 
 .sectionStyle{
 
-   
+   min-height: 500px;
     background-size: cover;
     background-image: url(./Images/watch.jpeg);
     background-repeat: no-repeat;

@@ -9,9 +9,9 @@
     ]
   },
   "scripts": {
-    "start": "node server.js",
+    "asx": "node server.js",
     "heroku-postbuild": "webpack -p",
-    "create": "webpack -p"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
