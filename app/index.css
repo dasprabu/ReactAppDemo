@@ -1,12 +1,17 @@
 body{
    background-color: white;
 }
-.backgroundImg {
-    max-width: 100%;
-    height: auto;
-    }
+
 
 .jumbotron{
 
     background-color: blueviolet;
+}
+
+.sectionStyle{
+
+    max-width: "100%";
+    max-height: "100%";
+    background-image: url(./Images/watch.jpeg);
+    background-repeat: no-repeat;
 }
