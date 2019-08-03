@@ -10,7 +10,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "asx": "webpack-dev-server --open",
     "heroku-postbuild": "webpack -p"
   },
   "keywords": [],
