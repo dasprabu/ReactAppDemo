@@ -25,27 +25,29 @@ class App extends React.Component{
 
     </div>
     <div className="boxstyle">
-        
+
         <div className="transbox">
             <div className="logo">
                 <img className="dfslogo" src={DFS} alt="Logo"></img>
-                
+
                 <p>Services / Repairs / Deposits</p>
             </div>
-                <label>Login</label>
-                <br />
-                <input type="text" className="textbox"></input>
-                <br />
-                <label>Password</label>
-                <br />
-                <input type="text" className="textbox"></input>
-                <br />
-               <br/>
+            <label>Login</label>
+            <br />
+            <input type="text" className="textbox"></input>
+            <br />
+            <label>Password</label>
+            <br />
+            <input type="text" className="textbox"></input>
+            <br />
+            <br/>
+            <div className="buttonbox">
                 <button>Login</button>
-                <br/>
-                <br/>
+            </div>
+            <br/>
+            <br/>
         </div>
-        
+
     </div>
 </div>
         )

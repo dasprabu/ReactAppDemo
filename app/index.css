@@ -38,9 +38,12 @@ div.transbox {
   button{
     background-color:rgb(132, 0, 0);
     color: white;
-    border-width: 0;
-    width: 90px;
-    
+ 
+    width: 180px;
+    height: 30px;
+    font-weight: bold;
+    border:2px solid rgb(165, 49, 28);
+    border-radius: 30px;
   }
 
   div.logo{
@@ -71,5 +74,12 @@ div.transbox {
   {
 
     font-weight: bold;
+  }
+
+  .buttonbox
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
