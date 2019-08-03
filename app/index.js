@@ -29,6 +29,8 @@ class App extends React.Component{
         <div className="transbox">
             <div className="logo">
                 <img className="dfslogo" src={DFS} alt="Logo"></img>
+                
+                <p>Services / Repairs / Deposits</p>
             </div>
                 <label>Login</label>
                 <br />
@@ -40,6 +42,7 @@ class App extends React.Component{
                 <br />
                <br/>
                 <button>Login</button>
+                <br/>
                 <br/>
         </div>
         

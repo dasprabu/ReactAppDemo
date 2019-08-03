@@ -38,6 +38,9 @@ div.transbox {
   button{
     background-color:rgb(132, 0, 0);
     color: white;
+    border-width: 0;
+    width: 90px;
+    
   }
 
   div.logo{
@@ -54,5 +57,19 @@ div.transbox {
 
   .textbox{
       width:80%;
+      
+  }
+
+  p{
+      color: black;
+      font-weight: bolder;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  label
+  {
+
+    font-weight: bold;
   }
   
