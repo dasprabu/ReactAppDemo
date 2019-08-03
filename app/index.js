@@ -23,10 +23,10 @@ class App extends React.Component{
         </div>
 
     </div>
-    <div className="row boxstyle">
-        <div className="col-sm-4"></div>
-        <div className="col-sm-4 transbox">
-            <div>
+    <div className="boxstyle">
+        
+        <div className="transbox">
+            
                 <label>Login</label>
                 <br />
                 <input type="text"></input>
@@ -36,9 +36,9 @@ class App extends React.Component{
                 <input type="text"></input>
                 <br />
                 <button>Login</button>
-            </div>
+            
         </div>
-        <div className="col-sm-4"></div>
+        
     </div>
 </div>
         )
